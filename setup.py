@@ -3,7 +3,7 @@ import os
 
 
 setup(name='dory',
-      version='0.1',
+      version='0.2',
       description='A library to deploy networks on MCUs',
       url='https://github.com/pulp-platform/dory/',
       author='Alessio Burrello',
