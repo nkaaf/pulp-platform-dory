@@ -17,6 +17,13 @@ setup(name='dory',
               "ortools",
               "mako"
 	    ],
-      package_data={"": ['Makefile*'], "": ['*.[json,c,h]']},
+      package_data={"": [
+          "*.json",
+          "*.h",
+          "*.c",
+          "*.t",
+          "*.mk_template",
+          "Makefile*"
+      ]},
       include_package_data=True,
       zip_safe=False)
